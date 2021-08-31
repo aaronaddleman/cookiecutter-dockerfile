@@ -1,0 +1,13 @@
+{
+    "project_name": "docker_project",
+    "docker_base": ["alpine", "debian"],
+    "maintainer_name": "Aaron Addleman",
+    "maintainer_mail": "aaronaddleman@gmail.com",
+    "short_description": "A short description which will be used in the README",
+    "repo_group": "User name on GitHub",
+    "repo_name": "{{cookiecutter.project_name}}",
+    "docker_repo": "User name for registry",
+    "docker_registry": ["quay.io", "docker-hub"],
+    "version" : "0.0.1",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
